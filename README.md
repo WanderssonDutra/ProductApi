@@ -16,12 +16,13 @@ Services:
 Endpoint demonstration in Postman:
 
 ![image](https://github.com/user-attachments/assets/d802696e-9be2-4429-a087-77b431c69679)
+
 Tools and Technologies:
 
--java 21
--Spring Boot
--PostgreSql
--Jpa/Hibernate
--Maven
+      -java 21
+      -Spring Boot
+      -PostgreSql
+      -Jpa/Hibernate
+      -Maven
 
 
