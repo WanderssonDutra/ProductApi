@@ -36,7 +36,7 @@ public class Product {
     private Boolean startInCurrentTime;
     @Nullable
     private Boolean saleIsActive;
-// Constructor that register initial data.
+// This Constructor register initial data.
     public Product(ProductRequestDTO data){
         this.name = data.name();
         this.description = data.description();
@@ -51,7 +51,7 @@ public class Product {
         this.createdAt = LocalDateTime.now();
         this.saleIsActive = false;
     }
-    //Constructor that update data.
+    //Method that update data.
     public void updateProduct(ProductUpdateRequestDTO data){
         if(data.name() != null)
             this.name = data.name();
@@ -71,7 +71,7 @@ public class Product {
             this.weight = data.weight();
         this.updateAt = LocalDateTime.now();
     }
-    //Constructor that update the sale price data.
+    //Method that update the sale price data.
     public void updateSalePrice(ProductSalePriceDTO data){
         if(data.saleIsActive() != null)
             this.saleIsActive = data.saleIsActive();
